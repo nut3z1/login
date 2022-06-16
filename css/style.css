@@ -1,0 +1,147 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  /* 1rem = 10px */
+}
+body {
+font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+img {
+    display: block;
+    /* width: 100%; */
+  }
+a {
+    text-decoration: none;
+  }
+.warper{
+    background: url(../img/banner1.jpg);
+
+}
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+  }
+  
+  .form-group.invalid .form-message {
+    color: #f33a58;
+  }
+.header{
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 750px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+.main {
+    position: relative;
+}
+.logo{
+    margin-top: 140px;
+    margin-left: 180px;
+
+}
+.logo img{
+    width: 230px;
+    height: auto;
+}
+.content-title {
+    margin-top: 70px;
+}
+.title-1{
+    max-width: 650px;
+}
+.title-1 {
+    font-weight:bold;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: normal;
+}
+.content-button{
+    margin-top: 70px;
+}
+/* .btn {
+    padding: 10px;
+} */
+.button1 {
+    border-radius: 20px;
+    padding: 13px 60px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button-sign-up{
+    background: #e60a17;
+    color: white;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    margin-right: 20px;
+    margin-left: 140px;
+}
+.button-sign-up:hover{
+    opacity: 0.8;
+}
+.button-log-in:hover{
+    opacity: 0.8;
+}
+.button-log-in{
+    background: white;
+    color: #e60a17;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+@media only screen and (max-width: 46.1875em) {
+    .logo {
+        margin-left: 86px;
+        }
+    .logo img {
+        width: 180px;
+    }
+    .content-title {
+        margin-top: 50px;
+        margin-left: 33px;
+    }
+    p.title-1 {
+    width: 300px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.button-sign-up {
+    margin-right: 6px;
+    margin-left: 0;
+}
+    
+}
+@media only screen and (min-width: 46.25em) and (max-width: 64em){
+    .logo {
+    margin-left: 130px;
+    }
+    .logo img {
+        width: 200px;
+    }
+    .content-title {
+        margin-top: 50px;
+    }
+    p.title-1 {
+    width: 500px;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.button-sign-up {
+    margin-left: 74px;
+}
+}

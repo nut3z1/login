@@ -1,0 +1,122 @@
+.main1 {
+    width: 900px;
+    position: relative;
+}
+.logo1{
+    position: absolute;
+    top: 50px;
+    left: 39%;
+}
+.logo1 img{
+    width: 230px;
+    height: auto;
+}
+.login-content{
+    width: 500px;
+    height: 400px;
+    background-color: #00000029;
+    position: absolute;
+    top: 180px;
+    left: 25%;
+}
+.login{
+    padding: 50px;
+}
+.title-2{
+    color: white;
+    font-size: 30px;
+}
+#loginForm{
+    margin-top: 30px;
+}
+#email{
+    width: 400px;
+    padding: 10px;
+    font-size: 15px;
+
+}
+#password{
+    width: 400px;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+
+}
+#log-in{
+    margin-top: 15px;
+    width: 400px;
+    padding: 12px;
+    background: #e60a17;
+    color: white;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    border-radius: 50px;
+    border: aliceblue;
+    font-weight: 600;
+    font-size: 15px;
+}
+#log-in:hover {
+    opacity: 0.8;
+}
+.from-a{
+    color: #919191;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top:20px
+}
+.from-a:hover{
+    text-decoration: underline;
+}
+#from-a{
+    margin-top: 20px;
+    text-align: center;
+}
+.signin-socia{
+    text-align: center;    
+}
+.text-1{
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.text-2{
+    color: #e60a17;
+    font-weight: bold;
+    font-size:14px; 
+}
+.text-2:hover{
+    text-decoration: underline;
+}
+.div-text2{
+    padding-top: 10px;
+}
+@media only screen and (max-width: 46.1875em) {
+    .logo1 {
+        margin-left: -38px;
+            }
+    .logo1 img {
+        width: 180px;
+    }
+    .logo1 {
+        position: absolute;
+        top: 62px;
+    }
+    .login-content {
+        width: 316px;
+        left: 7%;
+        top: 150px;
+    }
+    .login {
+        padding: 20px;
+    }
+    #email {
+        width: 250px;
+    }
+    #password{
+        width: 250px;
+    }
+    #log-in {
+        width: 250px;
+    }
+}

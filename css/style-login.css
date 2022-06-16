@@ -1,0 +1,146 @@
+.main1 {
+    width: 900px;
+    position: relative;
+}
+.logo1{
+    position: absolute;
+    top: 50px;
+    left: 39%;
+}
+.logo1 img{
+    width: 230px;
+    height: auto;
+}
+.login-content{
+    width: 500px;
+    height: 500px;
+    background-color: #00000087;
+    position: absolute;
+    top: 180px;
+    left: 25%;
+}
+.login{
+    padding: 50px;
+}
+.title-2{
+    color: white;
+    font-size: 30px;
+}
+#loginForm{
+    margin-top: 30px;
+}
+.froms-1{
+    width: 400px;
+    height: 51px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+}
+#log-in{
+    margin-top: 20px;
+    width: 400px;
+    padding: 12px;
+    background: #e60a17;
+    color: white;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    border-radius: 50px;
+    border: aliceblue;
+    font-weight: 600;
+    font-size: 15px;
+    cursor:pointer;
+}
+#log-in:hover {
+    opacity: 0.8;
+}
+.from-a{
+    color: #919191;
+    font-size: 1.2rem;  
+    text-align: center;
+    margin-top:20px
+}
+.from-a:hover{
+    text-decoration: underline;
+}
+#from-a{
+    margin-top: 20px;
+    text-align: center;
+}
+.signin-socia{
+    text-align: center;    
+}
+.text-1{
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.div-text1{
+    margin:20px 0;    
+}
+.text-2{
+    color: #e60a17;
+    font-weight: bold;
+    font-size:14px; 
+}
+.text-2:hover{
+    text-decoration: underline;
+}
+.div-text2{
+    padding-top: 10px;
+}
+.fa-brands{
+    font-size: 20px;
+}
+.icon-signin{
+    padding: 7px;
+    background-color: transparent;
+    color: wheat;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+.icon-signin:hover{
+    background: #e60a17;
+    color: wheat;
+    border: 0;
+}
+.div-text1 a{
+    color:white;
+}
+.froms-1:hover{
+    border: 1px solid #e60a17 ;
+}
+ .froms-input:focus {
+    border-color: #f23037;
+    border-right-width: 1px;
+    outline: 0;
+}
+@media only screen and (max-width: 46.1875em) {
+    .logo1 {
+        margin-left: -70px;        
+    }
+    .logo1 img {
+        width: 180px;
+    }
+    .login-content{
+        width: 260px;
+        left: 15%;
+        top: 150px;
+    }
+    .login {
+        padding: 20px;
+    }
+    #email {
+        width: 200px;
+    }
+    #password{
+        width: 200px;
+    }
+    #log-in {
+        width: 200px;
+    }
+}
